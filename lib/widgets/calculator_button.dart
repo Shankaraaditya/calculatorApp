@@ -33,6 +33,7 @@ class CalculatorButton extends StatelessWidget {
           color: backgroundColor,
         ),
         child: InkWell(
+          //ink well is added 
           customBorder: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(size / 2)),
           ),
@@ -41,7 +42,7 @@ class CalculatorButton extends StatelessWidget {
             child: Text(
               label,
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 25,
                 color: labelColor,
               ),
             ),

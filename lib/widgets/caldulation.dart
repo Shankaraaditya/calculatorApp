@@ -14,7 +14,7 @@ class _CalculationState extends State<Calculation> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        ResultDisplay(text: '0'),
+        ResultDisplay(text: '0'), // channges are made
         Row(
           children: [
             CalculatorButton(
